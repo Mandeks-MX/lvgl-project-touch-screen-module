@@ -1,0 +1,11 @@
+#ifndef ROOMMODEENUM_H_
+#define ROOMMODEENUM_H_
+
+enum RoomMode {
+  ECO,
+  PRECOMFORT,
+  COMFORT,
+  CLEANING,
+  OUT_OF_SERVICE,
+};
+#endif  // ROOMMODEENUM_H_

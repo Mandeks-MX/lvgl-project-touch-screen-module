@@ -1,0 +1,12 @@
+#ifndef IOTYPE_H_
+#define IOTYPE_H_
+
+typedef enum IoEnum {
+  IO_TYPE_DIGITAL_OUTPUT,
+  IO_TYPE_DIGITAL_INPUT,
+  IO_TYPE_ANALOG_OUTPUT,
+  IO_TYPE_ANALOG_INPUT,
+  IO_TYPE_THERMOSTAT,
+} Io_TypeDef;
+
+#endif  // IOTYPE_H_
